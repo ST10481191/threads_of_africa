@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Threads of Africa Customer Support</title>
+  <meta name="description" content="Get in touch with Threads of Africa. Contact our team for customer support, collaborations, or any questions about our African streetwear.">
+  <meta name="keywords" content="contact Threads of Africa, customer support, fashion inquiry, African streetwear contact">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&family=Rubik+Glitch&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>THREADS OF AFRICA - CONTACT US</h1>
+    <p>Get in touch with Threads of Africa - we'd love to hear from you</p>
+  </header>
+
+  <nav>
+    <a href="index.html">HOME</a>
+    <a href="about.html">ABOUT</a>
+    <a href="shop.html">SHOP</a>
+    <a href="lookbook.html">LOOKBOOK</a>
+    <a href="contact.html">CONTACT</a>
+    <a href="enquiry.html">ENQUIRY</a>
+  </nav>
+
+  <section>
+    <h2>Flagship Store</h2>
+    <p>Experience the full Threads of Africa collection in person.</p>
+    <div class="products">
+      <div class="product">
+        <img src="c:\Users\RC_Student_Lab\Downloads\Threads of Africa\Images\Threads of Africa Storefront Display.png" alt="Threads of Africa flagship store Johannesburg South Africa" loading="lazy">
+        <p class="caption">Flagship store – Johannesburg, South Africa</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Find Us on the Map</h2>
+    <div class="map-container">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.044241977278!2d28.04421531502967!3d-26.19738368344399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c1b6c2d85e1%3A0x3c4e2f4b4c5d6f7g!2sJohannesburg%2C%20South%20Africa!5e0!3m2!1sen!2sza!4v1641234567890!5m2!1sen!2sza"
+        width="100%" 
+        height="100%" 
+        style="border:0;" 
+        allowfullscreen 
+        loading="lazy">
+      </iframe>
+    </div>
+    <p class="caption">123 Fashion Street, Johannesburg, South Africa</p>
+  </section>
+
+  <section>
+    <h2>Send Us a Message</h2>
+    <p>Have a question or want to collaborate? Fill out the form below and we'll get back to you as soon as possible.</p>
+    
+    <div class="form-container">
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="name">Full Name *</label>
+          <input type="text" id="name" name="name" required>
+          <div class="error" id="nameError"></div>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email Address *</label>
+          <input type="email" id="email" name="email" required>
+          <div class="error" id="emailError"></div>
+        </div>
+        
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone">
+          <div class="error" id="phoneError"></div>
+        </div>
+        
+        <div class="form-group">
+          <label for="subject">Message Subject *</label>
+          <select id="subject" name="subject" required>
+            <option value="">Select a subject</option>
+            <option value="general">General Inquiry</option>
+            <option value="support">Customer Support</option>
+            <option value="collaboration">Collaboration</option>
+            <option value="press">Press & Media</option>
+            <option value="other">Other</option>
+          </select>
+          <div class="error" id="subjectError"></div>
+        </div>
+        
+        <div class="form-group">
+          <label for="message">Your Message *</label>
+          <textarea id="message" name="message" placeholder="Please provide details about your inquiry..." required></textarea>
+          <div class="error" id="messageError"></div>
+        </div>
+        
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <section>
+    <h2>Other Ways to Reach Us</h2>
+    <div class="products">
+      <div class="product">
+        <h3>Email</h3>
+        <p>info@threadsofafrica.com</p>
+        <p class="caption">We typically respond within 24 hours</p>
+      </div>
+      <div class="product">
+        <h3>Phone</h3>
+        <p>+27 75 104 2303</p>
+        <p class="caption">Mon-Fri, 9AM-5PM SAST</p>
+      </div>
+      <div class="product">
+        <h3>Store Visit</h3>
+        <p>123 Fashion Street</p>
+        <p>Johannesburg, South Africa</p>
+        <p class="caption">Come experience our collection in person</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="social-links">
+      <a href="https://instagram.com/threadsofafrica" aria-label="Follow us on Instagram">Instagram</a>
+      <a href="https://facebook.com/threadsofafrica" aria-label="Follow us on Facebook">Facebook</a>
+      <a href="https://twitter.com/threadsofafrica" aria-label="Follow us on Twitter">Twitter</a>
+    </div>
+    &copy; 2025 Threads of Africa | All rights reserved
+  </footer>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <span class="lightbox-close">&times;</span>
+    <div class="lightbox-nav">
+      <span class="lightbox-prev">&#10094;</span>
+      <span class="lightbox-next">&#10095;</span>
+    </div>
+    <img class="lightbox-content" id="lightbox-img">
+    <div class="lightbox-caption" id="lightbox-caption"></div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
