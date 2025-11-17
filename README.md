@@ -199,7 +199,7 @@ Threads of Africa/
 - Hours: Mon-Fri, 9AM-5PM SAST
 
 ## GitHub Repository
-**Repository URL:** https://github.com/[your-username]/threads-of-africa
+**Repository URL:** https://github.com/st1o481191/threads-of-africa
 
 ### Commit History
 
